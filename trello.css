@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@700&family=Bitter:wght@400;600&family=Comfortaa:wght@300&family=Domine&family=Press+Start+2P&family=Roboto:wght@100;400&family=Tiro+Bangla&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: rgb(255, 245, 255);
+    height: 500vh ;
+}
+
+.container{
+    width: 100%;
+    height: 3.5rem;
+    color: #091e42;
+    display: flex;
+    flex-direction: row;
+    font-size: 1rem;
+    font-weight: 500;
+    box-shadow: 1px 20px 120px rgba(173, 47, 215, 0.322);
+    background-color: white;
+    position: fixed;
+}
+
+.logo{
+    width: 9.8rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: ;
+    height: 100%;
+    padding: .1rem 1.5rem;
+}
+
+.menu{
+    width: 42rem;
+    height: 100%;
+}
+
+.menu ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100%;
+    align-items: center;
+}
+
+
+
+.login{
+    width: 50%;
+    height: auto;
+}
+
+.login ul {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    align-items: center;
+    overflow: hidden;
+}
+.space{
+    width: 37%;
+}
+.login ul .get{
+    align-items: center;
+}
+.lgn{
+    margin-right: 1rem;
+}
+.get{
+    background-color: #0065ff;
+    padding: 1.7rem 1.8rem 1.7rem 1.8rem;
+    color: white;
+}
+/* -------------------------------main start--------------------------- */
+
+.main{
+    width: 100%;
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.maincontainer{
+    width: 80%;
+    height: 30rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.box1{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.mainp{
+    font-size: 48px;
+}
+
+.mainc{
+    color: #091e42;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 30px;
+    margin-top: .7rem;
+}
+
+.signup-btn{
+    background-color: #0065ff;
+    padding: 1rem 1.5rem;
+    border-style: none;
+    border-radius: .2rem;
+    margin-top: 1.2rem;
+}
+.signup-btn a{
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.watchvideo{
+    margin-left: 1rem;
+}
+span button .playbutton{
+    text-decoration: none;
+}
+
+.box2 {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.img1{
+    width: 100%;
+    height: 90%;
+}
+
+  /* < !-- ---------------------main part 2--------------------------------- --> */
+
+  .container2{
+    width: 100%;
+    height: 18rem;
+   
+    display: flex;
+    justify-content: center;
+  }
+
+  .c-container2{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 1px solid rgba(0, 0, 0, 0.056);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.056);
+  }
+
+  .box-item1{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .cbox1{
+    width: 30%;
+    height: 100%;
+  }
+
+  .cbox2{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .price-tag{
+    width: 80%;
+    margin-top: 2rem;
+  }
+
+  .cp{
+    width: max-content;
+    font-size: 1rem;
+    background-color: #0065ff;
+    padding: .9rem 1rem;
+    border-style: none;
+    border-radius: .2rem
+  }
+
+  .cptext{
+    color: white;
+    text-decoration: none;
+  }
+
+  /* --------------------3rd-------------------------- */
+
+  .container3{
+    width: 100%;
+    height: 80rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .c-container3{
+    width: 80%;
+    min-height: 50rem;
+  }
+
+  .cbox3{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .start-doing{
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .brand{
+    width: 70%;
+    height: 19rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+  .zoombox{
+    width: 9rem;
+    height: 6rem;
+    margin-top: -.2rem;
+  }
+
+  .zoombox img{
+    width: 100%;
+    height: 90%;
+  }
+
+  /* ----------------footer------------------------------ */
+footer{
+    width: 100%;
+    height: 15rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(23, 43, 77);
+}
+
+.footcontainer{
+    margin-top: 1rem;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.footlogo{
+    width: 20%;
+    height: 50%;
+}
+
+.footlogo img{
+    width: 80%;
+    margin-bottom: 1rem;
+}
+
+.footcontainer2{
+    height: 100%;
+}
+.footcontainer2 ul{
+    background-color:;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.footlist{
+    width: 25%;
+}
+
+.footcontainer2 ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.footcontainer2 ul li:hover{
+    background-color: rgba(255, 255, 255, 0.133);
+}
+
+
+
+
