@@ -87,11 +87,13 @@ body{
             font-size: .9rem;
             width: 100%;
             position: relative;
-            height: 6rem;
+            height: 4rem;
     }
     .logo{
-        width: 100%;
+        width: 18%;
     }
+
+   
 
     .menu{
         width: 100%;
@@ -112,14 +114,27 @@ body{
             display: flex;
             width: 100%;
             position: absolute;
+            font-size: .7rem;
         }
          .login ul {
              display: flex;
              flex-direction: row;
              width: 100%;
             padding: 1rem;
-            gap: .5rem;
          }
+
+         .lgn{
+            background-color: #0065ff;
+            padding: .2rem;
+            color: white;
+         }
+
+                 .get {
+                     background-color: #0065ff;
+                     padding: .5rem .6rem;
+                     color: white;
+                     
+                 }
 }
 /* -------------------------------main start--------------------------- */
 
@@ -195,7 +210,7 @@ span button .playbutton{
             min-height: 50rem;
             display: flex;
             flex-wrap: wrap;
-            margin-top: 2rem;
+            margin-top: 5rem;
         }
     
         .maincontainer {
@@ -301,7 +316,7 @@ span button .playbutton{
         }
     
         .cbox1 {
-            width: 30%;
+            width: 12rem;
             height: 100%;
         }
     
@@ -340,20 +355,20 @@ span button .playbutton{
   .start-doing{
     width: 100%;
     height: 45rem;
-    margin-top: 1.5rem;
+    margin-top: 1rem;
     margin-bottom: 1rem;
     display: flex;
     justify-content: center;
   }
 
   .start-doing img{
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: 95%;
   }
 
   .brand{
     width: 70%;
-    height: 19rem;
+    height: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -369,6 +384,22 @@ span button .playbutton{
   .zoombox img{
     width: 100%;
     height: 90%;
+  }
+
+  @media only screen and (max-width: 990px){
+.container3 {
+        width: 100%;
+        height: 80rem;
+    }
+
+        .brand {
+            width: 80%;
+            height: auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
   }
   /* ----------------footer------------------------------ */
 .footercontainer1{
