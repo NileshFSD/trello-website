@@ -80,7 +80,8 @@ body{
     color: white;
 }
 
-@media only screen and (max-width: 990px) {
+@media only screen and (max-width: 990px)
+ {
     .container{
         display: flex;
             flex-direction: column;
@@ -93,9 +94,7 @@ body{
         width: 18%;
     }
 
-   
-
-    .menu{
+        .menu{
         width: 100%;
     }
 
@@ -133,9 +132,15 @@ body{
                      background-color: #0065ff;
                      padding: .5rem .6rem;
                      color: white;
-                     
-                 }
+                      }
 }
+
+@media only screen and (max-width: 700px) {.menu {
+    font-size: .7rem;
+}
+}
+
+
 /* -------------------------------main start--------------------------- */
 
 .main{
@@ -231,6 +236,26 @@ span button .playbutton{
             flex-direction: column;
             align-items:flex-start;
         }
+}
+
+@media only screen and (max-width: 700px){
+    .img1 {
+            width: 15rem;
+            height: 20rem;
+        }
+
+                .watchvideo {
+                    margin-left: .7rem;
+                }
+
+                                .signup-btn {
+                                    background-color: #0065ff;
+                                    padding: .5rem 1rem;
+                                    border-style: none;
+                                    border-radius: .2rem;
+                                    margin-top: 1.2rem;
+                                }
+
 }
 
   /* < !-- ---------------------main part 2--------------------------------- --> */
@@ -401,6 +426,22 @@ span button .playbutton{
             flex-wrap: wrap;
         }
   }
+
+  @media only screen and (max-width: 600px){
+    .container3 {
+            width: 100%;
+            height: 90rem;
+        }
+    
+        .brand {
+            width: 80%;
+            height: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+  }
   /* ----------------footer------------------------------ */
 .footercontainer1{
     width: 100%;
@@ -509,6 +550,15 @@ span button .playbutton{
               border-top: 2px solid rgba(255, 255, 255, 0.411);
           }
 }
+
+@media only screen and (max-width: 700px){
+    .footlogo img {
+            width: 10rem;
+            height: 30%
+        }
+}
+
+
 /* < !-- --------------------foot-nav--------------------------- --> */
 
 .footercontainer2{
