@@ -207,6 +207,7 @@ span button .playbutton{
 .img1{
     width: 20rem;
     height: 25rem;
+   
 }
 
 @media only screen and (max-width: 990px){
@@ -241,7 +242,7 @@ span button .playbutton{
 @media only screen and (max-width: 700px){
     .img1 {
             width: 15rem;
-            height: 19rem;
+            height: 20rem;
         }
 
                 .watchvideo {
@@ -284,7 +285,9 @@ span button .playbutton{
     display: flex;
     flex-direction: row;
   }
-
+ .start-doing img{
+    box-shadow: 10px 10px 30px black;
+ }
   .cbox1{
     width: 30%;
     height: 100%;
