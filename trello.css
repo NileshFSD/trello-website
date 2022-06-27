@@ -441,6 +441,12 @@ span button .playbutton{
             justify-content: space-evenly;
             flex-wrap: wrap;
         }
+
+        .pk p{
+            font-size: 3rem;
+            font-weight: 700;
+        }
+
   }
   /* ----------------footer------------------------------ */
 .footercontainer1{
@@ -665,7 +671,11 @@ span button .playbutton{
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+        width: 100%;
     }
+        .cfootnav ul li{
+           width: 100%;
+        }
 
     .social-media ul li{
     margin-right:  1rem;
